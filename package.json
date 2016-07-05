@@ -1,5 +1,5 @@
 {
-  "name": "json-watcher",
+  "name": "tsante-json-watcher",
   "version": "0.0.0",
   "description": "Watch and parse a json file",
   "main": "index.js",
