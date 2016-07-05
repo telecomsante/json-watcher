@@ -1,0 +1,33 @@
+{
+  "name": "json-watcher",
+  "version": "0.0.0",
+  "description": "Watch and parse a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha test",
+    "jshint": "jshint . --exclude-path .gitignore",
+    "jscs": "jscs .",
+    "check": "npm run jshint && npm run jscs",
+    "clean": "rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.telecomsante.com:tools/json-watcher.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Télécom Santé",
+  "dependencies": {
+    "lodash": "4.13.1",
+    "mz": "2.4.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.3",
+    "jscs": "3.0.3",
+    "jshint": "2.9.2",
+    "mocha": "^2.5.3",
+    "temp": "0.8.3"
+  }
+}
